@@ -1,0 +1,3 @@
+[console_scripts]
+yolo-calibrate = yolo_uncertainty.cli:calibrate
+yolo-report = yolo_uncertainty.cli:report

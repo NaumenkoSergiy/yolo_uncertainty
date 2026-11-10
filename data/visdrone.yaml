@@ -1,0 +1,23 @@
+# VisDrone-DET 2019 dataset configuration for YOLOv8
+# Download: https://github.com/VisDrone/VisDrone-Dataset
+#
+# After download, set the path below to your local VisDrone directory.
+
+path: ./data/VisDrone           # root directory (relative to project)
+train: VisDrone2019-DET-train/images
+val:   VisDrone2019-DET-val/images
+test:  VisDrone2019-DET-test-dev/images
+
+# 10 object classes
+nc: 10
+names:
+  0: pedestrian
+  1: people
+  2: bicycle
+  3: car
+  4: van
+  5: truck
+  6: tricycle
+  7: awning-tricycle
+  8: bus
+  9: motor
